@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; color: #0f172a; }
+.container { max-width: 1100px; margin: 0 auto; padding: 16px; }
+.header { display: flex; align-items: center; justify-content: space-between; padding: 12px 0; }
+.main { margin-top: 16px; }
+.card { background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; box-shadow: 0 1px 2px rgba(0,0,0,0.04); }
+.input { width: 100%; padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 14px; }
+.button { padding: 10px 14px; background: #2563eb; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: 600; }
+.button.secondary { background: #0ea5e9; }
+.button.ghost { background: transparent; color: #0f172a; border: 1px solid #cbd5e1; }
+.row { display: flex; gap: 12px; align-items: center; }
+.col { display: flex; flex-direction: column; gap: 8px; }
+.grid { display: grid; gap: 12px; }
+.grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+label { font-size: 12px; color: #475569; }
+hr { border: none; border-top: 1px solid #e2e8f0; margin: 16px 0; }
+.badge { background: #eff6ff; color: #1d4ed8; padding: 4px 8px; border-radius: 9999px; font-size: 12px; }
+.alert { padding: 12px; border: 1px solid #fee2e2; background: #fef2f2; color: #991b1b; border-radius: 6px; }
